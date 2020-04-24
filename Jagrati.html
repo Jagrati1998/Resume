@@ -1,0 +1,92 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style>
+        #background{
+            background-color:gray;
+            height:200px;
+            width:auto;
+        }
+        #Name{
+            padding-top:50px;
+            margin: auto;
+            text-align: center;
+            color: white;
+        }
+        #jag{
+             align-items: center;
+             display: block;
+            margin-left: auto;
+            margin-right: auto;
+             width: 50%;
+             padding-top:50px;
+            max-width:200px;
+            max-height:200px;
+        }
+        #profile{
+            padding-top:150px;
+            text-align: center;
+        }
+        #about-content
+        {
+            
+          background-color:lavender ;/* Green background with 30% opacity */
+          
+           border-style: solid;
+           border-width: 2px;
+           border-radius: 5px;
+
+        }
+        #post-content
+         {
+          background-color:lavender ;
+           border-style: solid;
+           border-width: 2px;
+           border-radius: 5px;
+}
+        .layout{
+            padding-left:20px;
+        }
+    </style>
+</head>
+<body>
+    <div id="background" >
+        <h1 id="Name">JAGRATI MISHRA</h1>
+        <img id ="jag"src="C:\xampp\htdocs\codeanddesign\wp-content\themes\twentytwenty\assets\images\jagrati.jpg" alt="Girl in a jacket">
+    </div>
+    <div id ="profile"><h2>.NET TRAINEE , NOIDA</h2></div>
+    <div id="about" class=" layout"><h1>About</h1>
+                    <div id="about-content">
+                        <h4 class=" layout">Email : jagratimishra2222@gmail.com</h4>
+                        <h4 class=" layout">Contact : 7084183155 </h4>
+                        <h4 class=" layout">Carrier Objective :</h4>
+                        <p class=" layout"> To work in a challenging environment that will test me at all levels and allow me to utilize
+                        and ameliorate my professional as well as personal skills by way of positive contribution to the
+                        organization while at the same time being resourceful, innovative and flexible.
+                       <button type="button" onclick ="extra()">Read More</button> </p>
+                        <p id="more" class=" layout"></p>
+                    </div></div>
+    <div id="post"class=" layout">
+        <h1 class=" layout">Post </h1>
+        <div id="post-content" class=" layout"><h3>Learn how to code HTML & CSS for free. <a href="https://www.w3schools.com/html/">Visit our HTML tutorial</a> In order to begin to write HTML, it helps if you know what you are writing. JavaScript is arguably the most important web coding language after HTML</h3>
+        
+                               <h3>How to get started with WordPress 2019. A guide to setting up your website with WordPress plus tips for choosing hosting and themes for you. <a href="https://www.w3schools.com/html/">Visit for WordPress.</a></h3></div>
+    </div>
+
+                    <script>
+                        function extra() {
+                            var info = " Chetu INC : 6 months training on .Net.  Eduction : Btech 2019(76.65%), 12th 2014:(87%) Programming Languages:Basics of C, SQL, Dot Net, C#, Java Script, HTML, CSS, Bootstrap";
+
+                                
+                            document.getElementById('more').innerHTML = info;
+                           
+                              
+                       
+                                
+                        }
+                    </script>
+</body>
+</html>
